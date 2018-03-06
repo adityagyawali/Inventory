@@ -6,3 +6,9 @@
 2. Fields cannot be empty
 3. You can edit delete or toggle 
 4. Toggle checks if the item is completed or not
+
+# Author
+Aditya Gyawali
+
+# License
+All rights are reserved
