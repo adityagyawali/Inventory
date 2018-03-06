@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Inventory</title>
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body>
+        <h2>Inventory App</h2>
+      <form>
+        <input type="text" name="item-name" id="item-name"  placeholder="Item name...." required>
+        <input type="text" name="item-quantity" id="item-quantity" placeholder="Quantity....">
+        <input type="number" name="item-price" id="item-price" placeholder="Price in €.....">
+        <span id='add-button' title="Add Something" class="ion-plus-circled" onclick="onAddButton()" href="#"></span>
+      </form>
+
+    <table id="inventory">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Time</th>
+          <th id="action">Action</th>
+        </tr>
+      </thead>
+      <tbody id="tablerows">
+      </tbody>
+    </table>
+
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
