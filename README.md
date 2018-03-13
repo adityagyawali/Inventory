@@ -7,6 +7,9 @@
 3. You can edit delete or toggle 
 4. Toggle checks if the item is completed or not
 
+# Demo
+[Inventory Application](http://adityagyawali-inventory.surge.sh/)
+
 # Author
 Aditya Gyawali
 
